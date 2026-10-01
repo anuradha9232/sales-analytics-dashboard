@@ -7,7 +7,7 @@ the headline figures used in docs/insights.md.
 Run:  python build_data.py
 
 This is a one-off data builder. The actual dashboard is built by hand in Excel
-by following docs/build-guide.md — that workbook is the deliverable that shows
+by following docs/build-guide.md - that workbook is the deliverable that shows
 the Excel skills. This script only produces the input data and the numbers to
 check the dashboard against.
 """
@@ -85,7 +85,7 @@ def build():
         region = r["region"]
         if random.random() < 0.15:
             region = random.choice([region.upper(), region.lower(), f"  {region} "])
-        unit_price_str = f"₹{int(r['unit_price']):,}" if random.random() < 0.3 else str(int(r["unit_price"]))
+        unit_price_str = f"Rs {int(r['unit_price']):,}" if random.random() < 0.3 else str(int(r["unit_price"]))
         revenue_str = "" if random.random() < 0.12 else str(int(r["revenue"]))  # blanks to recompute
         messy.append([
             r["order_id"],
