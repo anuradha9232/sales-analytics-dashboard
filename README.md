@@ -1,5 +1,12 @@
 # Sales Analytics Dashboard (Excel)
 
+<p>
+  <img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel" />
+  <img src="https://img.shields.io/badge/Data-Analytics-1F4E78?style=flat-square" alt="Data Analytics" />
+  <img src="https://img.shields.io/badge/Orders-600-2E75B6?style=flat-square" alt="Orders" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License MIT" />
+</p>
+
 A self-taught practice project that takes a messy sales export all the way to a clean Excel dashboard - showing the full workflow: **clean -> validate -> analyse -> visualise**. The emphasis is on data accuracy and documented, repeatable cleaning, which is the part of analytics that decides whether the final numbers can be trusted.
 
 ## The dashboard
